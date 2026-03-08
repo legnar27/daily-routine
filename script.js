@@ -1,5 +1,5 @@
 // --------------------- CONTRASEÑA SIMPLE ------------------------------
-const PASSWORD = "lino-2002";
+const PASSWORD = "rutina2026";
 let acceso = prompt("Ingresa contraseña:");
 if (acceso !== PASSWORD) {
   document.body.innerHTML = "<h1>Acceso denegado</h1>";
@@ -66,3 +66,4 @@ const formatoElegante = new Intl.DateTimeFormat("es-ES", { dateStyle: "full" });
 document.querySelector(".fecha").textContent = formatoElegante.format(
   new Date(),
 );
+
